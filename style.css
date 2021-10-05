@@ -1,0 +1,81 @@
+/*-------------------Creado por Emerson Lima -------------/*
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #021f4a;
+    font-family: sans-serif;
+}
+
+.conteiner{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: rgba(48, 91, 146, 0.883);
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5)
+
+}
+
+.conteiner h1{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.conteiner p{
+    color: #fff;
+}
+.conteiner .skills {
+    position: relative;
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, .1);
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 0 25px rgba(0, 0, 0,.5);
+}
+.conteiner .skills h3{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    float: left;
+}
+.conteiner .skills .percent{
+    float: right;
+    color: #fff;
+}
+.conteiner .skills .bar{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #041c40;
+    margin: 15px 0 10px;
+}
+.conteiner .skills .bar .progress{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 87%;
+    height: 100%;
+    background: linear-gradient(to right, #00327a, #2b80ff);
+}
+
+.conteiner .skills .bar .progress::before{
+    content:"";
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+
+}
+
+
+
+/*----- https://Skills.emersonlima6.repl.co ----*/
